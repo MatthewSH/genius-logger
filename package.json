@@ -1,6 +1,6 @@
 {
   "name": "genius-logger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A logging system that will log any specified message to the requested file in the configuration.",
   "author": {
     "name": "Matthew H",
