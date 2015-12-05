@@ -1,5 +1,9 @@
 # Bag of Bots Logger
-
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+[![Node.js Version][node-version-image]][node-version-url]
+[![Linux Build][travis-image]][travis-url]
+[![Test Coverage][coveralls-image]][coveralls-url]
 ## Table of Contents
 - [Install](#install)
 - [Introduction](#introduction)
@@ -151,3 +155,14 @@ logger.critical('Something major is going down! Oh crap!');
 
 ## Todo
 - Add text messaging support
+
+[npm-image]: https://img.shields.io/npm/v/genius-logger.svg
+[npm-url]: https://npmjs.org/package/genius-logger
+[node-version-image]: http://img.shields.io/node/v/genius-logger.svg
+[node-version-url]: http://nodejs.org/download/
+[travis-image]: https://travis-ci.org/MatthewSH/genius-logger.svg?branch=master
+[travis-url]: https://travis-ci.org/MatthewSH/genius-logger
+[coveralls-image]: https://coveralls.io/repos/MatthewSH/genius-logger/badge.svg?branch=master&service=github
+[coveralls-url]: https://coveralls.io/github/MatthewSH/genius-logger?branch=master
+[downloads-image]: https://img.shields.io/npm/dm/genius-logger.svg
+[downloads-url]: https://npmjs.org/package/genius-logger
