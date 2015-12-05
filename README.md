@@ -9,6 +9,7 @@
 - [Configuration](#configuration)
 - [Options](#options)
 - [Logging](#logging)
+- [Email](#email)
 - [Todo](#todo)
 
 ## Install
@@ -151,6 +152,29 @@ logger.critical('Something major is going down! Oh crap!');
 **Message:**
 
 `Something major is going down! Oh crap!`
+
+## Email
+Sometimes logging something just doesn't suit your needs as a developer. I know sometimes I just need to send an email for some miscellaneous purpose. So with that, I've decided to create a `logger.email()` function for use. This function requires the `UseEmail` option to be set to `true`.
+
+Now it is kind of tricky to configure. You have to pass an array of options for it to use. The only field that's not *really* required is the `subject` field.
+Here is how you can use the email function:
+```js
+var options = {
+        "recipients": [
+            {
+                "name": "Test User",
+                "email": "testuser@big.com"
+            }
+        ],
+        "message": {
+            "text": "My awesome email.",
+            "html": "<b>My awesome email.</b>"
+        }
+};
+
+logger.email(options);
+
+```
 
 ## Todo
 - Add text messaging support
