@@ -142,8 +142,11 @@ logger.critical('Something major is going down! Oh crap!');
 *This is an automated message from the Genius Logger package.*
 
 **Product:** Example
+
 **Error Level:** Critical
+
 **Message:**
+
 `Something major is going down! Oh crap!`
 
 ## Todo
