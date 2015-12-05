@@ -1,0 +1,24 @@
+{
+    "ProductName": "Example",
+    "settings": {
+        "LogFile": "my.log",
+        "UseTimes": true,
+        "TimeFormat": "YYYY[/]MM[/]DD [@] h[:]mma",
+        "UseEmail": true,
+        "EmailAdminsOnCritical": true
+    },
+    "email": {
+        "name": "Example Email",
+        "user": "email@big.com",
+        "password": "mysupersecretpassword",
+        "host": "stmp.big.com",
+        "port": 26,
+        "ssl": false
+    },
+    "administrators": [
+        {
+            "name": "Joe Big",
+            "email": "joe@big.com"
+        }
+    ]
+}
