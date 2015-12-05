@@ -1,6 +1,6 @@
 {
   "name": "genius-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A logging system that will log any specified message to the requested file in the configuration.",
   "author": {
     "name": "Matthew H",
@@ -8,7 +8,7 @@
     "url": "http://matthewh.in/"
   },
   "scripts": {
-      "test": "node examples/Logger.js"
+    "test": "node examples/Logger.js"
   },
   "private": false,
   "main": "index.js",
@@ -21,14 +21,14 @@
     "url": "https://github.com/MatthewSH/genius-logger/issues"
   },
   "engines": {
-      "node": ">= 0.10"
+    "node": ">= 0.10"
   },
   "keywords": [
-      "logging",
-      "console",
-      "logger",
-      "genius",
-      "log"
+    "logging",
+    "console",
+    "logger",
+    "genius",
+    "log"
   ],
   "files": [
     "lib/",
