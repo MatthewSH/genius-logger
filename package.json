@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "description": "A logging system that will log any specified message to the requested file in the configuration.",
   "author": {
-    "name": "Matthew H",
+    "name": "matthewh",
     "email": "hello@matthewh.in",
     "url": "http://matthewh.in/"
   },
